@@ -50,6 +50,7 @@ According to the mapping method of review text, there are two strategies to prep
 
 ## 3. How to Use
 If you run the `WordVectorBased Models`, first to run the `wordVectorBased_data_preprocess.py`, and then run the `run_wordVectorBased_model.py`.
+
 If you run the `BertBased Models`, first to make sure the `bert_service` is started. Run the `bertBased_data_preprocess.py`, and then run the `run_bertBased_model.py`. 
 
 
