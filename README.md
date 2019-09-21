@@ -23,6 +23,7 @@ A model zoo that contains different review-based collaborative filtering models 
 #### 2.1 DataSet and DataPreprocess
 The experimental dataset is Amazon Review DataSet, which can be downloaded [here](http://jmcauley.ucsd.edu/data/amazon/links.html).
 According to the mapping method of review text, there are two strategies to preprocess the dataSet. 
+
 &ensp; | DataPreprocessor | Description | Directory
 ---|---|---|---
 1 | `wordVectorBased_data_preprocess.py` | split train, valid and test dataSet. Represent the review by word vectors | /Model_Zoo
