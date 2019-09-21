@@ -1,5 +1,14 @@
 # Review-based-Collaborative-Filtering
-A model zoo that contains different review-based collaborative filtering models of rating prediction task for recommendation
+    A model zoo that contains different review-based collaborative filtering models of rating prediction task for recommendation
+
+# 1. Model Type
+## 1.1 WordVectorBased_Model
+  | Model Name
+---|---
+1 | DeepCoNN
+2 | DARR
+3 | MACF
+
 
 基于词向量和基于bert的模型共分为两类，
 它们的代码区别在于预处理阶段：词向量的有vocabulary，而基于bert的没有
