@@ -3,7 +3,7 @@
 
 # 1. Model Type
 ## 1.1 WordVectorBased_Model
-  | Model Name
+&ensp; | Model Name
 ---|---
 1 | DeepCoNN
 2 | DARR
