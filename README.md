@@ -36,7 +36,10 @@ According to the mapping method of review text, there are two strategies to prep
 1 | DeepCLFM | Model_Zoo/models/bertBased_Models
 2 | NCEM | Model_Zoo/models/bertBased_Models
 #### 2.3 Runner
-Since there are
+&ensp; | Runner | Description | Directory
+---|---|---|---
+1 | run_wordVectorBased_model.py | rnn the wordVectorBased models, you may choose the specific model by commenting out codes nearly line 478 | /Model_Zoo
+2 | run_bertBased_model.py | | /Model_Zoo
 
 基于词向量和基于bert的模型共分为两类，
 它们的代码区别在于预处理阶段：词向量的有vocabulary，而基于bert的没有
