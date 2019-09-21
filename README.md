@@ -22,7 +22,12 @@ A model zoo that contains different review-based collaborative filtering models 
 ## 2. Code Description
 #### 2.1 DataSet and DataPreprocess
 The experimental dataset is Amazon Review DataSet, which can be downloaded [here](http://jmcauley.ucsd.edu/data/amazon/links.html).
-According to the mapping method of review text, there are two strategies to preprocess the dataSet. The first one called wordVectorBased, which is to represent the review by word vectors: `wordVectorBased_data_preprocess.py`(/Model_Zoo/wordVectorBased_data_preprocess.py). The second one is bertBased that is to represent the review by BERT's embedding: `bertBased_data_preprocess.py`(/model_Zoo/bertBased_data_preprocess.py)
+According to the mapping method of review text, there are two strategies to preprocess the dataSet. 
+&ensp; | DataPreprocessor | Description | Directory
+---|---|---|---
+1 | `wordVectorBased_data_preprocess.py` | split train, valid and test dataSet. Represent the review by word vectors | /Model_Zoo
+2 | `bertBased_data_preprocess.py` | split train, valid and test dataSet. Represent the review by BERT's embedding | /Model_Zoo
+
 #### 2.2 Models Definition
 ##### 2.2.1 WordVectorBased Models
 &ensp; | Model Name | Directory
@@ -39,7 +44,10 @@ According to the mapping method of review text, there are two strategies to prep
 &ensp; | Runner | Description | Directory
 ---|---|---|---
 1 | run_wordVectorBased_model.py | rnn the wordVectorBased models, you may choose the specific model by commenting out codes nearly line 478 | /Model_Zoo
-2 | run_bertBased_model.py | | /Model_Zoo
+2 | run_bertBased_model.py | rnn the wordVectorBased models, you may choose the specific model by commenting out codes nearly line 425 | /Model_Zoo
+
+## 2. How to Use
+
 
 基于词向量和基于bert的模型共分为两类，
 它们的代码区别在于预处理阶段：词向量的有vocabulary，而基于bert的没有
