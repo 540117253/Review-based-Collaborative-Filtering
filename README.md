@@ -49,8 +49,8 @@ According to the mapping method of review text, there are two strategies to prep
 2 | `run_bertBased_model.py` | rnn the wordVectorBased models, you may choose the specific model by commenting out codes nearly line 425 | /Model_Zoo
 
 ## 3. How to Use
-If you run the `WordVectorBased Models`, first to run the `wordVectorBased_data_preprocess.py`, and then run the `run_wordVectorBased_model.py`.
+1. If you run the `WordVectorBased Models`, first to run the `wordVectorBased_data_preprocess.py`, and then run the `run_wordVectorBased_model.py`.
 
-If you run the `BertBased Models`, first to make sure the `bert_service` is started. Run the `bertBased_data_preprocess.py`, and then run the `run_bertBased_model.py`. 
+2. If you run the `BertBased Models`, first to make sure the `bert_service` is started (How to start `bert_service` can read [here](https://github.com/hanxiao/bert-as-service)). Run the `bertBased_data_preprocess.py` (My bert_service machine's IP is 10.1.63.214, so you can change the IP of your bert_service machine in the first serveral lines of this code), and then run the `run_bertBased_model.py`. 
 
 
