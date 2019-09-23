@@ -1,10 +1,10 @@
 # Review-based-Collaborative-Filtering
 A model zoo that contains different review-based collaborative filtering models of rating prediction task for recommendation
 
-#### Definition of Review-based  Rating Prediction 
+### Definition of Review-based  Rating Prediction 
 ![image](https://github.com/540117253/Review-based-Collaborative-Filtering/blob/master/illustration/Task%20Definition.jpg)
 
-#### Requirements
+### Requirements
 * Python 3.6
 * Tensorflow 1.13.1
 
