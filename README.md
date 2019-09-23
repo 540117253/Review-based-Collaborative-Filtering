@@ -26,7 +26,7 @@ A model zoo that contains different review-based collaborative filtering models 
 #### 2.1 DataSet and DataPreprocess
 The experimental dataset is Amazon Review DataSet, which can be downloaded [here](http://jmcauley.ucsd.edu/data/amazon/links.html).
 
-The pre-trained word vector is glov.6B, which can be downloaded [here](https://apache-mxnet.s3.cn-north-1.amazonaws.com.cn/gluon/embeddings/glove/glove.6B.zip).
+The pre-trained word vector is glove.6B, which can be downloaded [here](https://apache-mxnet.s3.cn-north-1.amazonaws.com.cn/gluon/embeddings/glove/glove.6B.zip).
 
 According to the mapping method of review text, there are two strategies to preprocess the dataSet. 
 
@@ -54,7 +54,8 @@ According to the mapping method of review text, there are two strategies to prep
 2 | `run_bertBased_model.py` | rnn the wordVectorBased models, you may choose the specific model by commenting out codes nearly line 425 | /Model_Zoo
 
 ## 3. How to Use
-1. Make sure the pre-trained word vector and Amazon Review DataSet in the following directory:
+1. Make sure the glove pre-trained word vector ([download](https://apache-mxnet.s3.cn-north-1.amazonaws.com.cn/gluon/embeddings/glove/glove.6B.zip)).
+and Amazon Review DataSet ([download](http://jmcauley.ucsd.edu/data/amazon/links.html)) in the following directory:
 - `/data/`
   - `Automotive_5`
     - `Automotive_5.json`
