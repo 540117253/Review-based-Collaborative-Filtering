@@ -5,7 +5,7 @@
 ![image](https://github.com/540117253/Review-based-Collaborative-Filtering/blob/master/illustration/Task%20Definition.jpg)
 
 ### Requirements
-* Python 3.6
+* Python 3.5+
 * Tensorflow 1.13.1
 
 ## 1. Models
