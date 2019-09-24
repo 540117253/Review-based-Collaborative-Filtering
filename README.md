@@ -1,5 +1,5 @@
 # Review-based-Collaborative-Filtering
-### A model zoo that contains different review-based collaborative filtering models of rating prediction task for recommendation.
+&ensp; &ensp; A model zoo that contains different review-based collaborative filtering models of rating prediction task for recommendation.
 
 ### Definition of Review-based  Rating Prediction 
 ![image](https://github.com/540117253/Review-based-Collaborative-Filtering/blob/master/illustration/Task%20Definition.jpg)
@@ -33,7 +33,7 @@ According to the mapping method of review text, there are two strategies to prep
 &ensp; | DataPreprocessor | Description | Directory
 ---|---|---|---
 1 | `wordVectorBased_data_preprocess.py` | split train, valid and test dataSet. Represent the review by word vectors. You may choose different dataSet and modify the preprocess params in the first serveral lines of this code | /Model_Zoo
-2 | `bertBased_data_preprocess.py` | split train, valid and test dataSet. Represent the review by BERT's embedding. You may choose different dataSet and modify the preprocess params in the first serveral lines of this code | /Model_Zoo
+2 | `bertBased_data_preprocess.py` | split train, valid and test dataSet. Represent the review by BERT's embedding. You may choose &ensp;different dataSet and modify the preprocess params in the first serveral lines of this code | /Model_Zoo
 
 #### 2.2 Models Definition
 ##### 2.2.1 WordVectorBased Models
