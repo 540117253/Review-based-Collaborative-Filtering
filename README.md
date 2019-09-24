@@ -39,14 +39,14 @@ According to the mapping method of review text, there are two strategies to prep
 ##### 2.2.1 WordVectorBased Models
 &ensp; | Model Name | Directory
 ---|---|---
-1 | `DeepCoNN.py` | Model_Zoo/models/wordVectorBased_Models
-2 | `DARR.py` | Model_Zoo/models/wordVectorBased_Models
-3 | `MACF.py` | Model_Zoo/models/wordVectorBased_Models
+1 | `DeepCoNN.py` | Model_Zoo/models/
+2 | `DARR.py` | Model_Zoo/models/
+3 | `MACF.py` | Model_Zoo/models/
 ##### 2.2.2 BertBased Models
 &ensp; | Model Name | Directory
 ---|---|---
-1 | `DeepCLFM.py` | Model_Zoo/models/bertBased_Models
-2 | `NCEM.py` | Model_Zoo/models/bertBased_Models
+1 | `DeepCLFM.py` | Model_Zoo/models/
+2 | `NCEM.py` | Model_Zoo/models/
 #### 2.3 Runner
 &ensp; | Runner | Description | Directory
 ---|---|---|---
