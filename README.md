@@ -56,7 +56,7 @@ According to the mapping method of review text, there are two strategies to prep
 ## 3. How to Use
 1. Make sure the glove pre-trained word vector ([download](https://apache-mxnet.s3.cn-north-1.amazonaws.com.cn/gluon/embeddings/glove/glove.6B.zip)).
 and Amazon Review DataSet ([download](http://jmcauley.ucsd.edu/data/amazon/links.html)) in the following directory:
-- `/data/`
+- `/Model_Zoo/data/`
   - `Automotive_5`
     - `Automotive_5.json`
   - `glove.6B`
